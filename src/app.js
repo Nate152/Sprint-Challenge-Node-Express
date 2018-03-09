@@ -21,10 +21,10 @@ server.get('/compare', (req, res) => {
         .then(json => {
             let historicalRate = (json.bpi['2018-03-08']);
             console.log(historicalRate);
-            const difference = currentRate - historicalRate;
+            let difference = currentRate - historicalRate;
             console.log(difference);
             res.status(STATUS_SUCCESS);
-            res.send(`The difference is : ${difference}`);
+            res.send(`The difference is : $${difference.toFixed(2)}`);
         })
         .catch(err => {
             console.log(err);
