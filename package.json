@@ -7,5 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ivan Mora",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nate152/Sprint-Challenge-Node-Express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nate152/Sprint-Challenge-Node-Express/issues"
+  },
+  "homepage": "https://github.com/Nate152/Sprint-Challenge-Node-Express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "node-fetch": "^2.1.1"
+  }
 }
